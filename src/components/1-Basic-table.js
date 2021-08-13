@@ -7,6 +7,7 @@ export const columns = [
   {
     Header: 'ID',
     accessor: 'id',
+    // sortDescFirst: true,
   },
   {
     Header: 'First Name',
@@ -27,6 +28,7 @@ export const columns = [
   {
     Header: 'Direction',
     accessor: 'direction',
+    disableSortBy: true,
   },
 ];
 
